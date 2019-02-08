@@ -2,7 +2,7 @@ import { all, call, put, takeEvery } from 'redux-saga/effects';
 import axios from 'axios'
 
 import { Types } from '../reducers/dogs'
-
+//https://dog.ceo/dog-api/documentation/random
 const axiosRequest = axios.create({
     baseURL: `https://dog.ceo/api/`,
     timeout: 10000,
