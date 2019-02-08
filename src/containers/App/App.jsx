@@ -22,7 +22,9 @@ class App extends Component {
 			<header className="App-header">
 				<img src={logo} className="App-logo" alt="logo" />
 				{!!this.props.dogs.length &&
-					<img src={this.props.dogs[0]}/>
+					<img 
+						width={300}
+						src={this.props.dogs[0]}/>
 				}
 			</header>
 			
